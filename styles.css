@@ -241,14 +241,14 @@ a {
 	overflow: auto;
 	padding-bottom: 5px;
 	padding-top: 5px;
-	background-color: RGB(255,0,0);
+	background-color: RGB(0,0,0);
 }
 
 .surround {
 	float: left;
 	width: 25%;
 	height: 250px;
-	background-color: RGB(255,0,0);
+	background-color: RGB(0,0,0);
 	padding: 10px 10px 10px 10px;
 }
 
@@ -257,14 +257,17 @@ a {
 	height: 100%;
 	background-color: RGB(0,0,0);
 	position: relative;
+	
 }
 
 
 .projects .textLink {
 	position: absolute;
 	margin-top: 0;
-	padding-left: 5px;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+	left: 50%;
+	top: 3%;
+	transform: translate(-50%, -3%);
 }
 
 
@@ -297,8 +300,8 @@ a {
 
 @media only screen and (max-width: 1200px) {
 	.logo {
-		width: 65px;
-		height: 65px;
+		width: 100px;
+		height: 100px;
 		padding: 2% 0 0 2%;
 		margin: 0;
 		float: left;
@@ -370,13 +373,19 @@ a {
 		float: left;
 		width: 50%;
 		height: 250px;
-		background-color: RGB(255,0,0);
+		background-color: RGB(0,0,0);
 		padding: 10px 10px 10px 10px;
 	
 	
 }
 
 @media only screen and (max-width: 780px) {
+	.logo {
+		width: 80px;
+		height: 80px;
+	}
+	
+	
 	.categories {
 		margin: 30px auto;
 		width: 400px;
@@ -422,9 +431,14 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+	.logo {
+		width: 70px;
+		height: 70px;
+	}
+	
 	.categories {
 		margin: 0px auto;
-		width: 200px;
+		width: 290px;
 	}
 	
 	h1, h3, p {
@@ -433,8 +447,8 @@ a {
 	
 	
 	li a {
-		font-size: 10px;
-		padding: 2px;
+		font-size: 13px;
+		padding: 5px;
 	}
 	
 	h1 {
@@ -467,7 +481,7 @@ a {
 		float: left;
 		width: 100%;
 		height: 250px;
-		background-color: RGB(255,0,0);
+		background-color: RGB(0,0,0);
 		padding: 10px 10px 10px 10px;
 	
 }
