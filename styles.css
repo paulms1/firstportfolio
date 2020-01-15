@@ -124,6 +124,9 @@ footer {
 	color: RGB(241,246,193);
 }
 
+
+
+
 .contact {
 	text-align: center;	
 }
@@ -153,6 +156,8 @@ footer {
 	color: RGB(232,85,58);
 	font-family: 'Oswald', sans-serif;
 }
+
+
 
 
 
@@ -204,6 +209,25 @@ footer {
 	
 }
 
+main {
+	background-color: RGB(0,0,0);
+}
+
+.showcase {
+	overflow: auto;
+}
+
+.portfolioTitle {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: RGB(241,246,193);
+}
+
+.projects img {
+	width: 25%;
+	height: auto;
+	float: left;
+}
 
 
 
