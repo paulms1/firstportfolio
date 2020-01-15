@@ -171,9 +171,8 @@ footer {
 	padding: 0;
 }
 .aboutMe p {
-	padding-left: 0 4% 0 4%;
+	padding: 0 4% 0 4%;
 	margin: 0 0 10px 5px;
-	/*color: RGB(232,85,58);*/
 }
 
 .headShotContainer {
