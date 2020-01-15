@@ -69,7 +69,6 @@ li a:hover {
 
 .hero {
 	position: relative;
-	background-color: RGB(0,0,0);
 }
 
 
@@ -144,21 +143,36 @@ footer {
 	text-decoration: none;
 	display: block;
 	color: RGB(124,171,112);
-	padding-bottom: 10px;
+	padding: 4px 0 0 12px;
 	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
 }
 
 
 .contact .toTop {
 	color: RGB(232,85,58);
+	font-family: 'Oswald', sans-serif;
 }
 
 
 
+.aboutMe {
+	background-color: RGB(255,255,255);
+	color: RGB(0,0,0);
+	text-align: center;
+}
 
 
-
-
+.aboutMe h2 {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 15px;
+	padding: 0;
+}
+.aboutMe p {
+	padding-left: 0 4% 0 4%;
+	margin: 0 0 10px 5px;
+	/*color: RGB(232,85,58);*/
+}
 
 
 
@@ -273,7 +287,7 @@ footer {
 	}
 	
 	h1, h3, p {
-		right: 25px;
+		right: 27px;
 		margin: 0;
 	}
 	
@@ -288,23 +302,21 @@ footer {
 	}
 	
 	.company {
-		font-size: 1rem;
-		top: 30;
+		top: 60px;
 	}
 	
 	.job {
-		font-size: 1.5rem;
-		top: 100;
+		top: 100px;
 	}
 	
-	.tagLineOne{
+	.tagLineOne {
 		font-size: 1rem;
-		top: 160;
+		top: 160px;
 	}
 
 	.tagLineTwo {
 		font-size: 1rem;
-		top: 180;
+		top: 180px;
 	}
 	
 	
