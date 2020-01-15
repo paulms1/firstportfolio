@@ -174,8 +174,34 @@ footer {
 	/*color: RGB(232,85,58);*/
 }
 
+.headShotContainer {
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+	background-color: RGB(241,246,193);
+	border-radius: 50%;
+	position: relative;
+	border: solid RGB(232,85,58);
+	
+}
 
+.headShot {
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	background-color: RGB(124,171,112);
+	border-radius: 50%;
+	margin: 5%;
+}
 
+.aboutMe img {
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	border: 3px solid RGB(0,0,0);
+	margin: 5%;
+	
+}
 
 
 
