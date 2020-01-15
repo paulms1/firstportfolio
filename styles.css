@@ -167,6 +167,8 @@ footer {
 	text-align: center;
 	width: 90%;
 	margin: 0 auto 2% auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 
@@ -364,6 +366,13 @@ a {
 		font-size: 1.5rem;
 	}
 	
+	.surround {
+		float: left;
+		width: 50%;
+		height: 250px;
+		background-color: RGB(255,0,0);
+		padding: 10px 10px 10px 10px;
+	
 	
 }
 
@@ -407,12 +416,7 @@ a {
 	}
 	
 	
-	.surround {
-		float: left;
-		width: 50%;
-		height: 250px;
-		background-color: RGB(255,0,0);
-		padding: 10px 10px 10px 10px;
+	
 	
 	
 }
@@ -458,6 +462,13 @@ a {
 		top: 180px;
 	}
 	
+	
+	.surround {
+		float: left;
+		width: 100%;
+		height: 250px;
+		background-color: RGB(255,0,0);
+		padding: 10px 10px 10px 10px;
 	
 }
 
