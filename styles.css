@@ -211,30 +211,66 @@ footer {
 
 main {
 	background-color: RGB(0,0,0);
+	text-align: center;
+	padding-top: 2px;
 }
+
+
+.portfolioTitle {
+	color: RGB(241,246,193);
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.projects {
+	text-align: center;
+	text-decoration: none;
+}
+
+
+a {
+	color: RGB(241,246,193);
+	font-family: 'Oswald', sans-serif;
+}
+
+
 
 .showcase {
 	overflow: auto;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: RGB(255,0,0);
 }
 
-.portfolioTitle {
-	font-family: 'Oswald', sans-serif;
-	text-align: center;
-	color: RGB(241,246,193);
+.surround {
+	float: left;
+	width: 25%;
+	height: 250px;
+	background-color: RGB(255,0,0);
+	padding: 10px 10px 10px 10px;
 }
+
+.projects {
+	width: 100%;
+	height: 100%;
+	background-color: RGB(0,0,0);
+	position: relative;
+}
+
+
+.projects .textLink {
+	position: absolute;
+	margin-top: 0;
+	padding-left: 5px;
+	font-size: 1.2rem;
+}
+
+
 
 .projects img {
-	width: 25%;
-	height: auto;
-	float: left;
+	width: 100%;
+	max-height: 100%;
 }
-
-
-
-
-
-
-
 
 
 
