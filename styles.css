@@ -5,6 +5,7 @@
 
 body {
 	margin: 0;
+	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -45,7 +46,6 @@ ul li {
 	width: 33%;
 	text-align: center;
 	height: 15px;
-	font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -132,7 +132,6 @@ footer {
 }
 
 .contact>h2 {
-	font-family: 'Oswald', sans-serif;
 	margin: 0;
 }
 
@@ -148,13 +147,11 @@ footer {
 	color: RGB(124,171,112);
 	padding: 4px 0 0 12px;
 	font-size: 18px;
-	font-family: 'Oswald', sans-serif;
 }
 
 
 .contact .toTop {
 	color: RGB(232,85,58);
-	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -173,7 +170,6 @@ footer {
 
 
 .aboutMe h2 {
-	font-family: 'Oswald', sans-serif;
 	margin-top: 15px;
 	padding: 0;
 }
@@ -215,12 +211,12 @@ main {
 	background-color: RGB(0,0,0);
 	text-align: center;
 	padding-top: 2px;
+	display: block;
 }
 
 
 .portfolioTitle {
 	color: RGB(241,246,193);
-	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -232,7 +228,6 @@ main {
 
 a {
 	color: RGB(241,246,193);
-	font-family: 'Oswald', sans-serif;
 }
 
 
