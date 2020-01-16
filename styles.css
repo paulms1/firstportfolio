@@ -309,6 +309,9 @@ button {
 	
 }
 
+button:focus {
+	outline:none;
+}
 
 .projects a:hover + button, button:hover {
 	display: block;
