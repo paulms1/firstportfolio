@@ -271,17 +271,53 @@ a {
 }
 
 
-
-.projects img {
-	width: 100%;
-	height: 100%;
+.projects .textLink:after {
+	content: "Click image to view project";
+	font-size: 0.6rem;
+	display: block;
 }
 
 
 
+.projects img {
+	width: 100%;
+	height: 100%;
+	border-style: outset;
+}
+
+.projects img:hover {
+	border-style: inset;
+}
 
 
+.projects img:active {
+	border-color: RGB(124,171,112);
+}
 
+
+button {
+	display: none;
+	position: absolute;
+	bottom: 3%;
+	width: 24%;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: RGB(0,0,0);
+	color: RGB(232,85,58);
+	font-family: 'Oswald', sans-serif;
+	border-color: RGB(241,246,193);
+	
+}
+
+
+.projects a:hover + button, button:hover {
+	display: block;
+}
+
+
+.projects button:active {
+	border-color: RGB(124,171,112);
+}
 
 
 
