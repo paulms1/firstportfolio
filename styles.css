@@ -2,12 +2,10 @@
 	box-sizing: border-box;
 }
 
-
 body {
 	margin: 0;
 	font-family: 'Oswald', sans-serif;
 }
-
 
 nav {
 	background-color: RGB(0,0,0);
@@ -15,7 +13,6 @@ nav {
 	position: relative;
 	overflow: hidden;
 }
-
 
 .logo {
 	width: 100px;
@@ -25,20 +22,15 @@ nav {
 	float: left;
 }
 
-
 .logo img {
 	height: 100%;
 	width: auto;
 }
 
-
 .categories {
 	margin: 40px auto;
 	width: 900px;
 }
-
-
-
 
 ul li {
 	display: inline-block;
@@ -57,20 +49,17 @@ li a {
 	padding: 10px;
 	height: 100%;
 	width: 100%;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
-
 
 li a:hover {
 	border: 1px solid RGB(241,246,193);
 	color: RGB(232,85,58);
 }
 
-
 .hero {
 	position: relative;
 }
-
 
 .hero img {
 	width: 100%;
@@ -80,7 +69,6 @@ h1, h3, p {
 	font-family: 'Fjalla One', sans-serif;
 	right: 180px;
 }
-
 
 h1 {
 	position: absolute;
@@ -117,15 +105,11 @@ h1 {
 	font-size: 1.8rem;
 }
 
-
 footer {
 	background-color: RGB(0,0,0);
 	height: 120px;
 	color: RGB(241,246,193);
 }
-
-
-
 
 .contact {
 	text-align: center;	
@@ -138,25 +122,20 @@ footer {
 .contact>h4 {
 	font-family: 'Fjalla One', sans-serif;
 	margin: 0;
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 .contact .email {
 	text-decoration: none;
 	display: block;
 	color: RGB(124,171,112);
-	padding: 4px 0 0 12px;
-	font-size: 18px;
+	padding: 4px 5px 13px 12px;
+	font-size: 1.125rem;
 }
-
 
 .contact .toTop {
 	color: RGB(232,85,58);
 }
-
-
-
-
 
 .aboutMe {
 	background-color: RGB(255,255,255);
@@ -168,11 +147,11 @@ footer {
 	padding-top: 10px;
 }
 
-
 .aboutMe h2 {
 	margin-top: 15px;
 	padding: 0;
 }
+
 .aboutMe p {
 	padding: 0 4% 0 4%;
 	margin: 0 0 10px 5px;
@@ -185,8 +164,7 @@ footer {
 	background-color: RGB(241,246,193);
 	border-radius: 50%;
 	position: relative;
-	border: solid RGB(232,85,58);
-	
+	border: solid RGB(232,85,58);	
 }
 
 .headShot {
@@ -203,8 +181,7 @@ footer {
 	height: 90%;
 	border-radius: 50%;
 	border: 3px solid RGB(0,0,0);
-	margin: 5%;
-	
+	margin: 5%;	
 }
 
 main {
@@ -214,23 +191,18 @@ main {
 	display: block;
 }
 
-
 .portfolioTitle {
 	color: RGB(241,246,193);
 }
-
 
 .projects {
 	text-align: center;
 	text-decoration: none;
 }
 
-
 a {
 	color: RGB(241,246,193);
 }
-
-
 
 .showcase {
 	overflow: auto;
@@ -243,36 +215,28 @@ a {
 	float: left;
 	width: 25%;
 	height: 250px;
-	background-color: RGB(0,0,0);
 	padding: 10px 10px 10px 10px;
 }
 
 .projects {
 	width: 100%;
 	height: 100%;
-	background-color: RGB(0,0,0);
 	position: relative;
-	
 }
-
 
 .projects .textLink {
 	position: absolute;
-	margin-top: 0;
 	font-size: 1.4rem;
 	left: 50%;
 	top: 3%;
 	transform: translate(-50%, -3%);
 }
 
-
 .projects .textLink:after {
 	content: "Click image to view project";
 	font-size: 0.6rem;
 	display: block;
 }
-
-
 
 .projects img {
 	width: 100%;
@@ -284,11 +248,9 @@ a {
 	border-style: inset;
 }
 
-
 .projects img:active {
 	border-color: RGB(124,171,112);
 }
-
 
 button {
 	display: none;
@@ -301,7 +263,6 @@ button {
 	color: RGB(232,85,58);
 	font-family: 'Oswald', sans-serif;
 	border-color: RGB(241,246,193);
-	
 }
 
 button:focus {
@@ -312,25 +273,9 @@ button:focus {
 	display: block;
 }
 
-
 .projects button:active {
 	border-color: RGB(124,171,112);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 1200px) {
 	.logo {
@@ -354,7 +299,6 @@ button:focus {
 		width: 30%;
 	}
 	
-	
 	h1, h3, p {
 		right: 50px;
 	}
@@ -370,7 +314,6 @@ button:focus {
 	.job {
 		font-size: 2.5rem;
 	}
-	
 }
 
 @media only screen and (max-width: 950px) {
@@ -378,9 +321,8 @@ button:focus {
 		right: 25px;
 	}
 	
-	
 	li a {
-		font-size: 16px;
+		font-size: 1rem;
 	}
 	
 	h1 {
@@ -409,8 +351,6 @@ button:focus {
 		height: 250px;
 		background-color: RGB(0,0,0);
 		padding: 10px 10px 10px 10px;
-	
-	
 }
 
 @media only screen and (max-width: 780px) {
@@ -418,7 +358,6 @@ button:focus {
 		width: 80px;
 		height: 80px;
 	}
-	
 	
 	.categories {
 		margin: 30px auto;
@@ -430,9 +369,8 @@ button:focus {
 		margin: 0;
 	}
 	
-	
 	li a {
-		font-size: 16px;
+		font-size: 1rem;
 	}
 	
 	h1 {
@@ -457,11 +395,6 @@ button:focus {
 		font-size: 1rem;
 		top: 180px;
 	}
-	
-	
-	
-	
-	
 }
 
 @media only screen and (max-width: 600px) {
@@ -479,9 +412,8 @@ button:focus {
 		right: 20px;
 	}
 	
-	
 	li a {
-		font-size: 13px;
+		font-size: 0.8125rem;
 		padding: 5px;
 	}
 	
@@ -510,14 +442,12 @@ button:focus {
 		top: 180px;
 	}
 	
-	
 	.surround {
 		float: left;
 		width: 100%;
 		height: 250px;
 		background-color: RGB(0,0,0);
 		padding: 10px 10px 10px 10px;
-	
 }
 
 
