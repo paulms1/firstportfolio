@@ -5,6 +5,7 @@
 
 body {
 	margin: 0;
+	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -45,7 +46,6 @@ ul li {
 	width: 33%;
 	text-align: center;
 	height: 15px;
-	font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -124,12 +124,14 @@ footer {
 	color: RGB(241,246,193);
 }
 
+
+
+
 .contact {
 	text-align: center;	
 }
 
 .contact>h2 {
-	font-family: 'Oswald', sans-serif;
 	margin: 0;
 }
 
@@ -145,14 +147,14 @@ footer {
 	color: RGB(124,171,112);
 	padding: 4px 0 0 12px;
 	font-size: 18px;
-	font-family: 'Oswald', sans-serif;
 }
 
 
 .contact .toTop {
 	color: RGB(232,85,58);
-	font-family: 'Oswald', sans-serif;
 }
+
+
 
 
 
@@ -162,18 +164,18 @@ footer {
 	text-align: center;
 	width: 90%;
 	margin: 0 auto 2% auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 
 .aboutMe h2 {
-	font-family: 'Oswald', sans-serif;
 	margin-top: 15px;
 	padding: 0;
 }
 .aboutMe p {
-	padding-left: 0 4% 0 4%;
+	padding: 0 4% 0 4%;
 	margin: 0 0 10px 5px;
-	/*color: RGB(232,85,58);*/
 }
 
 .headShotContainer {
@@ -205,19 +207,115 @@ footer {
 	
 }
 
+main {
+	background-color: RGB(0,0,0);
+	text-align: center;
+	padding-top: 2px;
+	display: block;
+}
+
+
+.portfolioTitle {
+	color: RGB(241,246,193);
+}
+
+
+.projects {
+	text-align: center;
+	text-decoration: none;
+}
+
+
+a {
+	color: RGB(241,246,193);
+}
 
 
 
+.showcase {
+	overflow: auto;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: RGB(0,0,0);
+}
+
+.surround {
+	float: left;
+	width: 25%;
+	height: 250px;
+	background-color: RGB(0,0,0);
+	padding: 10px 10px 10px 10px;
+}
+
+.projects {
+	width: 100%;
+	height: 100%;
+	background-color: RGB(0,0,0);
+	position: relative;
+	
+}
+
+
+.projects .textLink {
+	position: absolute;
+	margin-top: 0;
+	font-size: 1.4rem;
+	left: 50%;
+	top: 3%;
+	transform: translate(-50%, -3%);
+}
+
+
+.projects .textLink:after {
+	content: "Click image to view project";
+	font-size: 0.6rem;
+	display: block;
+}
 
 
 
+.projects img {
+	width: 100%;
+	height: 100%;
+	border-style: outset;
+}
+
+.projects img:hover {
+	border-style: inset;
+}
 
 
+.projects img:active {
+	border-color: RGB(124,171,112);
+}
 
 
+button {
+	display: none;
+	position: absolute;
+	bottom: 3%;
+	width: 24%;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: RGB(0,0,0);
+	color: RGB(232,85,58);
+	font-family: 'Oswald', sans-serif;
+	border-color: RGB(241,246,193);
+	
+}
+
+button:focus {
+	outline:none;
+}
+
+.projects a:hover + button, button:hover {
+	display: block;
+}
 
 
-
+.projects button:active {
+	border-color: RGB(124,171,112);
+}
 
 
 
@@ -236,8 +334,8 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 	.logo {
-		width: 65px;
-		height: 65px;
+		width: 100px;
+		height: 100px;
 		padding: 2% 0 0 2%;
 		margin: 0;
 		float: left;
@@ -305,10 +403,23 @@ footer {
 		font-size: 1.5rem;
 	}
 	
+	.surround {
+		float: left;
+		width: 50%;
+		height: 250px;
+		background-color: RGB(0,0,0);
+		padding: 10px 10px 10px 10px;
+	
 	
 }
 
 @media only screen and (max-width: 780px) {
+	.logo {
+		width: 80px;
+		height: 80px;
+	}
+	
+	
 	.categories {
 		margin: 30px auto;
 		width: 400px;
@@ -348,12 +459,20 @@ footer {
 	}
 	
 	
+	
+	
+	
 }
 
 @media only screen and (max-width: 600px) {
+	.logo {
+		width: 70px;
+		height: 70px;
+	}
+	
 	.categories {
 		margin: 0px auto;
-		width: 200px;
+		width: 290px;
 	}
 	
 	h1, h3, p {
@@ -362,8 +481,8 @@ footer {
 	
 	
 	li a {
-		font-size: 10px;
-		padding: 2px;
+		font-size: 13px;
+		padding: 5px;
 	}
 	
 	h1 {
@@ -392,7 +511,16 @@ footer {
 	}
 	
 	
+	.surround {
+		float: left;
+		width: 100%;
+		height: 250px;
+		background-color: RGB(0,0,0);
+		padding: 10px 10px 10px 10px;
+	
 }
+
+
 
 	
 
