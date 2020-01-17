@@ -1,0 +1,459 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav {
+	background-color: RGB(0,0,0);
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	padding: 1.5% 0 0 1.5%;
+	margin: 0;
+	float: left;
+}
+
+.logo img {
+	height: 100%;
+	width: auto;
+}
+
+.categories {
+	margin: 40px auto;
+	width: 900px;
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+	width: 33%;
+	text-align: center;
+	height: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a {
+	color: RGB(241,246,193);
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+	font-size: 1.125rem;
+}
+
+li a:hover {
+	border: 1px solid RGB(241,246,193);
+	color: RGB(232,85,58);
+}
+
+.hero {
+	position: relative;
+}
+
+.hero img {
+	width: 100%;
+}
+
+h1, h3, p {
+	font-family: 'Fjalla One', sans-serif;
+	right: 180px;
+}
+
+h1 {
+	position: absolute;
+	top: 30px;
+	color: RGB(241,246,193);
+	font-size: 5rem;
+}
+
+.company {
+	position: absolute;
+	top: 135px;
+	color: RGB(124,171,112);
+	font-size: 2.2rem;
+}
+
+.job {
+	position: absolute;
+	top: 200px;
+	color: RGB(232,85,58);
+	font-size: 2.5rem;
+}
+
+.tagLineOne{
+	position: absolute;
+	top: 320px;
+	color: RGB(241,246,193);
+	font-size: 1.8rem;
+}
+
+.tagLineTwo {
+	position: absolute;
+	top: 350px;
+	color: RGB(241,246,193);
+	font-size: 1.8rem;
+}
+
+footer {
+	background-color: RGB(0,0,0);
+	height: 120px;
+	color: RGB(241,246,193);
+}
+
+.contact {
+	text-align: center;	
+}
+
+.contact>h2 {
+	margin: 0;
+}
+
+.contact>h4 {
+	font-family: 'Fjalla One', sans-serif;
+	margin: 0;
+	font-size: 0.875rem;
+}
+
+.contact .email {
+	text-decoration: none;
+	display: block;
+	color: RGB(124,171,112);
+	padding: 4px 5px 13px 12px;
+	font-size: 1.125rem;
+}
+
+.contact .toTop {
+	color: RGB(232,85,58);
+}
+
+.aboutMe {
+	background-color: RGB(255,255,255);
+	color: RGB(0,0,0);
+	text-align: center;
+	width: 90%;
+	margin: 0 auto 2% auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.aboutMe h2 {
+	margin-top: 15px;
+	padding: 0;
+}
+
+.aboutMe p {
+	padding: 0 4% 0 4%;
+	margin: 0 0 10px 5px;
+}
+
+.headShotContainer {
+	width: 140px;
+	height: 140px;
+	margin: 2% auto 1% auto;
+	background-color: RGB(241,246,193);
+	border-radius: 50%;
+	position: relative;
+	border: solid RGB(232,85,58);	
+}
+
+.headShot {
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	background-color: RGB(124,171,112);
+	border-radius: 50%;
+	margin: 5%;
+}
+
+.aboutMe img {
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	border: 3px solid RGB(0,0,0);
+	margin: 5%;	
+}
+
+main {
+	background-color: RGB(0,0,0);
+	text-align: center;
+	padding-top: 2px;
+	display: block;
+}
+
+.portfolioTitle {
+	color: RGB(241,246,193);
+}
+
+.projects {
+	text-align: center;
+	text-decoration: none;
+}
+
+a {
+	color: RGB(241,246,193);
+}
+
+.showcase {
+	overflow: auto;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: RGB(0,0,0);
+}
+
+.surround {
+	float: left;
+	width: 25%;
+	height: 250px;
+	padding: 10px 10px 10px 10px;
+}
+
+.projects {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.projects .textLink {
+	position: absolute;
+	font-size: 1.4rem;
+	left: 50%;
+	top: 3%;
+	transform: translate(-50%, -3%);
+}
+
+.projects .textLink:after {
+	content: "Click image to view project";
+	font-size: 0.6rem;
+	display: block;
+}
+
+.projects img {
+	width: 100%;
+	height: 100%;
+	border-style: outset;
+}
+
+.projects img:hover {
+	border-style: inset;
+}
+
+.projects img:active {
+	border-color: RGB(124,171,112);
+}
+
+button {
+	display: none;
+	position: absolute;
+	bottom: 3%;
+	width: 24%;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: RGB(0,0,0);
+	color: RGB(232,85,58);
+	font-family: 'Oswald', sans-serif;
+	border-color: RGB(241,246,193);
+}
+
+button:focus {
+	outline:none;
+}
+
+.projects a:hover + button, button:hover {
+	display: block;
+}
+
+.projects button:active {
+	border-color: RGB(124,171,112);
+}
+
+@media only screen and (max-width: 1200px) {
+	.logo {
+		width: 100px;
+		height: 100px;
+		padding: 2% 0 0 2%;
+		margin: 0;
+		float: left;
+	}
+	
+	.categories {
+		margin: 30px auto;
+		width: 800px;
+	}
+
+	li a {
+		padding: 5px;
+	}
+
+	ul li {
+		width: 30%;
+	}
+	
+	h1, h3, p {
+		right: 50px;
+	}
+	
+	h1 {
+		font-size: 4.5rem;
+	}
+	
+	.company {
+		font-size: 1.8rem;
+	}
+	
+	.job {
+		font-size: 2.5rem;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	h1, h3, p {
+		right: 25px;
+	}
+	
+	li a {
+		font-size: 1rem;
+	}
+	
+	h1 {
+		font-size: 4rem;
+	}
+	
+	.company {
+		font-size: 1.5rem;
+	}
+	
+	.job {
+		font-size: 2.2rem;
+	}
+	
+	.tagLineOne{
+		font-size: 1.5rem;
+	}
+
+	.tagLineTwo {
+		font-size: 1.5rem;
+	}
+	
+	.surround {
+		float: left;
+		width: 50%;
+		height: 250px;
+		background-color: RGB(0,0,0);
+		padding: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 780px) {
+	.logo {
+		width: 80px;
+		height: 80px;
+	}
+	
+	.categories {
+		margin: 30px auto;
+		width: 400px;
+	}
+	
+	h1, h3, p {
+		right: 27px;
+		margin: 0;
+	}
+	
+	li a {
+		font-size: 1rem;
+	}
+	
+	h1 {
+		font-size: 3rem;
+		top: 0;
+	}
+	
+	.company {
+		top: 60px;
+	}
+	
+	.job {
+		top: 100px;
+	}
+	
+	.tagLineOne {
+		font-size: 1rem;
+		top: 160px;
+	}
+
+	.tagLineTwo {
+		font-size: 1rem;
+		top: 180px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.logo {
+		width: 70px;
+		height: 70px;
+	}
+	
+	.categories {
+		margin: 0px auto;
+		width: 290px;
+	}
+	
+	h1, h3, p {
+		right: 20px;
+	}
+	
+	li a {
+		font-size: 0.8125rem;
+		padding: 5px;
+	}
+	
+	h1 {
+		font-size: 2.6rem;
+		top: 0;
+	}
+	
+	.company {
+		font-size: 1.1rem;
+		top: 75px;
+	}
+	
+	.job {
+		font-size: 1.4rem;
+		top: 110px;
+	}
+	
+	.tagLineOne{
+		font-size: 1rem;
+		top: 160px;
+	}
+
+	.tagLineTwo {
+		font-size: 1rem;
+		top: 180px;
+	}
+	
+	.surround {
+		float: left;
+		width: 100%;
+		height: 250px;
+		background-color: RGB(0,0,0);
+		padding: 10px 10px 10px 10px;
+}
+
+
+
+	
+
+	
+
+
